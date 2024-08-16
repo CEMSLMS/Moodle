@@ -1,0 +1,29 @@
+# Ignore Moodle's configuration file
+config.php
+
+# Ignore Moodle's cache and session files
+/moodledata/
+
+# Ignore backup files
+*.bak
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer and vendor files (if using Composer)
+vendor/
+composer.lock
+
+# Ignore XAMPP-specific files
+xampp/
